@@ -1,0 +1,25 @@
+{
+	"priority": 100000000000,
+	"populate": {
+		"limestone": {
+			"distribution": "uniform",
+			"generator": {
+				"name": "pyrotech:limestone",
+				"material": "minecraft:stone",
+				"cluster-size": 66
+			},
+			"cluster-count": 13,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

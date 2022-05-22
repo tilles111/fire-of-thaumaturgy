@@ -1,0 +1,15 @@
+{
+	x: 3.5d,
+	y: 1.5d,
+	dependencies: [
+		"da6546ad",
+		"c0e25baf"
+	],
+	tasks: [{
+		uid: "31b46256",
+		type: "item",
+		items: [{
+			item: "pyrotech:drying_rack"
+		}]
+	}]
+}
