@@ -1,0 +1,18 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"da6546ad",
+		"c0e25baf",
+		"beefd730"
+	],
+	tasks: [{
+		uid: "8fa00b6d",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

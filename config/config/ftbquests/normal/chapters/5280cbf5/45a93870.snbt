@@ -1,0 +1,23 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"d7b636af"
+	],
+	tasks: [{
+		uid: "a412ac95",
+		type: "item",
+		items: [{
+			item: "pyrotech:worktable"
+		}]
+	},
+	{
+		uid: "fd819fbd",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

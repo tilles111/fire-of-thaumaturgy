@@ -1,0 +1,52 @@
+{
+	x: 4.0d,
+	y: -1.0d,
+	dependencies: [
+		"845f3255"
+	],
+	tasks: [{
+		uid: "9aca7433",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}],
+		count: 4L
+	},
+	{
+		uid: "96712ceb",
+		type: "item",
+		items: [{
+			item: "pyrotech:chopping_block"
+		}]
+	},
+	{
+		uid: "c7b180ac",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plankWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankWood"
+				}
+			}
+		}],
+		count: 2L
+	}]
+}
